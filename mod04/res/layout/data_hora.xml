@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15px"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3498db"
+        android:padding="5px"
+        android:text="@string/data_label"
+        android:textColor="#ffffff" />
+
+    <DatePicker
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:calendarViewShown="false" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3498db"
+        android:padding="5px"
+        android:text="@string/hora_label"
+        android:textColor="#ffffff" />
+
+    <TimePicker
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="135dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20px" >
+
+        <TextView
+            android:id="@+id/lbl_datahora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="DD/MM/YYYY HH:mm"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+</LinearLayout>

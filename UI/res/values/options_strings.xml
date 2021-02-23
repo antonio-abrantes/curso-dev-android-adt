@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="op1_checked">Opção 1 checada</string>
+    <string name="op2_checked">Opção 2 checada</string>
+    <string name="op1_op2_checked">Ambas as opções checadas</string>
+    <string name="none_checked">Nenhuma das opções checadas</string>
+    <string name="click_text">Clique nas opções</string>
+    <string name="op01_text">Opção 1</string>
+    <string name="op02_text">Opção 2</string>
+    <string name="btn_verificar">Verificar</string>
+    
+    
+</resources>

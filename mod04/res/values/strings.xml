@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Formulário de cadastro</string>
+
+    <string name="txt_nome">Nome:</string>
+
+    <string name="txt_sexo">Sexo:</string>
+
+    <string name="radio_masc_txt">Masculino</string>
+
+    <string name="radio_fem_txt">Feminino</string>
+
+    <string name="bt_exibir_text">Exibir</string>
+
+    <string name="bt_limpar_txt">Limpar</string>
+    
+    <string name="result_nome_label"><b>Nome: </b></string>
+    
+    <string name="result_sexo_label"><b>Sexo: </b></string>
+    
+    <string name="data_label">Data</string>
+    
+    <string name="hora_label">Hora</string>
+
+</resources>

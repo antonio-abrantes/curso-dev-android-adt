@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units_options">
+        <item>Km/h</item>
+        <item>mph</item>
+    </string-array>
+    <string-array name="units_values">
+        <item>K</item>
+        <item>M</item>
+    </string-array>
+    <string name="title_gps">Usar GPS</string>
+    <string name="summary_gps">Habilita o uso do GPS no cálculo do trajeto</string>
+    <string name="title_city">Cidade</string>
+    <string name="summary_city">Cidade a ser considerada</string>
+    <string name="title_metric">Unidade de medida</string>
+    <string name="summary_metric">Unidade utilizada para velocidade</string>
+    <string name="title_dialog_metric">Escolha uma opção</string>
+    <string name="title_categ_metric">Métricas</string>
+    <string name="title_categ_location">Localização</string>
+    <string name="title">Configuração</string>
+</resources>
+

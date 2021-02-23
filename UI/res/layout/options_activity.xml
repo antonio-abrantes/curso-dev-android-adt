@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:layout_margin="10px"
+        android:text="@string/titulo"
+        android:textSize="10pt"
+        android:textColor="#0000FF"
+        android:layout_gravity="center"
+        />
+    
+    <CheckBox 
+        android:id="@+id/op01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op01_text"
+        />
+    
+    <CheckBox 
+        android:id="@+id/op02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/op02_text"
+        />
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_verificar"
+        android:onClick="verificar"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/texto" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:layout_margin="10px"
+        android:text=""
+        android:textSize="10pt"
+        android:textStyle="normal"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10px" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_txt" />
+
+        <EditText
+            android:id="@+id/txt_teste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+    </LinearLayout>
+    
+</LinearLayout>

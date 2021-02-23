@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Activity</string>
+    <string name="msg">Minha mensagem por resorce</string>
+    <string name="nova_string">Mais um teste de resorce</string>
+
+</resources>

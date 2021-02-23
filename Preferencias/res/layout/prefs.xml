@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/title">
+	
+	<PreferenceCategory android:title="@string/title_categ_location">
+		<CheckBoxPreference 
+			android:key="use_gps" 
+			android:title="@string/title_gps"
+			android:summary="@string/summary_gps"	
+		/>
+		<EditTextPreference
+			android:key="city"
+			android:title="@string/title_city"
+			android:summary="@string/summary_city"
+		/>
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/title_categ_metric">
+		<ListPreference 
+			android:key="unit" 
+			android:title="@string/title_metric"
+			android:summary="@string/summary_metric"
+			android:entries="@array/units_options"
+			android:entryValues="@array/units_values"
+			android:dialogTitle="@string/title_dialog_metric"
+			android:defaultValue="K"
+		/>
+	</PreferenceCategory>
+</PreferenceScreen> 

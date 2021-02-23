@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  
+  <EditText
+  	android:id="@+id/text_write"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:lines="3"
+	android:inputType="textMultiLine"
+	android:gravity="top" />
+	
+  <Button
+    android:text="Gravar"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:onClick="gravar"
+  />
+	
+  <Button
+    android:text="Ler"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:onClick="ler"
+  />
+	
+  <TextView
+  	android:id="@+id/text_read"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+   />
+
+</LinearLayout>
